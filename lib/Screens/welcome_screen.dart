@@ -3,6 +3,7 @@ import 'package:shokutsu_app/Utilities/reusable_card.dart';
 
 
 class WelcomeScreen extends StatelessWidget {
+  static String id = 'welcome_screen';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
